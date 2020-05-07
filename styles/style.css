@@ -1,0 +1,55 @@
+#logo {
+	max-width: 100px;
+	max-height: 70px;
+}
+#about {
+	background-color: #82B5BC;
+}
+#header{
+	display: flex;
+  	text-align: left; 
+  	font-weight: bold;
+  	font-size: 20px;
+  	width: 100%; /* Full width */
+  	transition: 0.2s;
+}
+#header a {
+	transition: transform 0.2s;
+	transform: scale(1);
+}
+#header a:hover {
+	color: #efb81a;
+ 	text-shadow:  -2px 3px #111111, -3px 7px #82b5bc;
+ 	transform: scale(.8);
+ 	transition: 0.2s;
+}
+#navlinks {
+
+}
+.navbar-collapse{
+
+}
+.navbar-custom {
+	background-color: #D52527;
+}
+.nav-link {
+	
+	color: #040707;
+}
+body, html {
+  height: 100%;
+}
+body {
+	background-color: #E7DF8A;
+    padding-top: 40px; 
+}
+img {
+	max-width: 100%;
+	max-width: 100%;
+	display:inline-block;
+	margin:auto;
+}
+footer {
+	background-color: #82B5BC;
+
+}
